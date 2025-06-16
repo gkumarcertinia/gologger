@@ -13,3 +13,7 @@ func LogWarning(message string) {
 func LogError(message string) {
 	log.Printf("ERROR - %v", message)
 }
+
+func LogVerbos(message string) {
+	log.Printf("VERBOS - %v", message)
+}
