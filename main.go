@@ -17,3 +17,7 @@ func LogError(message string) {
 func LogVerbos(message string) {
 	log.Printf("VERBOS - %v", message)
 }
+
+func LogTrace(message string) {
+	log.Printf("TRACE - %v", message)
+}
